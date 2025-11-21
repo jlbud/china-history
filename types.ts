@@ -32,6 +32,9 @@ export interface HistoryCardData {
   imageSeed: number; // For picsum fallback
   imageUrl?: string; // Specific historical image
   tags: string[];
+  // New pre-generated content for instant display
+  preGeneratedSummary?: string;
+  preGeneratedSecret?: string;
 }
 
 export interface ChatMessage {

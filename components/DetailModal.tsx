@@ -1,9 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Sparkles, BookOpen, ExternalLink } from 'lucide-react';
-import { HistoryCardData, Era, AiInsight } from '../types';
-import { generateCardDetails } from '../services/geminiService';
+import { X, Sparkles, ExternalLink } from 'lucide-react';
+import { HistoryCardData, Era } from '../types';
 
 interface DetailModalProps {
   card: HistoryCardData | null;
@@ -24,7 +23,7 @@ const getHighResImageUrl = (url: string | undefined, seed: number) => {
   
   if (url.includes('wikimedia.org')) {
     const cleanUrl = url.replace(/^https?:\/\//, '');
-    // Request higher quality/size for modal
+    // Request higher quality/size for modal via wsrv.nl
     return `https://wsrv.nl/?url=${cleanUrl}&w=800&q=85&output=jpg`;
   }
   
@@ -32,27 +31,15 @@ const getHighResImageUrl = (url: string | undefined, seed: number) => {
 };
 
 const DetailModal: React.FC<DetailModalProps> = ({ card, era, onClose }) => {
-  const [insight, setInsight] = useState<AiInsight | null>(null);
-  const [loading, setLoading] = useState(false);
   const [imgSrc, setImgSrc] = useState<string>('');
   const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
     if (card) {
-      setInsight(null);
-      setLoading(false);
       setImgSrc(getHighResImageUrl(card.imageUrl, card.imageSeed));
       setImgError(false);
     }
   }, [card]);
-
-  const handleGenerateInsight = async () => {
-    if (!card || !era) return;
-    setLoading(true);
-    const result = await generateCardDetails(card, era);
-    setInsight(result);
-    setLoading(false);
-  };
 
   const handleImageError = () => {
     if (!imgError && card) {
@@ -121,68 +108,51 @@ const DetailModal: React.FC<DetailModalProps> = ({ card, era, onClose }) => {
               {card.shortDescription}
             </p>
 
-            {/* AI Section */}
+            {/* AI Insight Section (Static Content) */}
             <div className="bg-stone-50 rounded-xl p-6 border border-stone-200 relative overflow-hidden">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-stone-800 font-bold flex items-center gap-2">
                   <Sparkles size={18} className="text-amber-500" />
                   AI 历史解析
                 </h3>
-                {!insight && !loading && (
-                  <button 
-                    onClick={handleGenerateInsight}
-                    className="flex items-center gap-2 px-4 py-2 bg-stone-800 text-white text-sm rounded-lg hover:bg-stone-700 transition-colors"
-                  >
-                    <BookOpen size={16} />
-                    查询百度百科
-                  </button>
-                )}
               </div>
 
-              {loading && (
-                <div className="flex flex-col items-center justify-center py-8 space-y-3">
-                  <div className="w-8 h-8 border-4 border-stone-200 border-t-red-500 rounded-full animate-spin"></div>
-                  <p className="text-stone-400 text-sm italic">正在翻阅百科全书...</p>
-                </div>
-              )}
-
-              {insight && (
-                <motion.div 
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                >
-                  <p className="text-stone-700 mb-4 font-serif leading-relaxed">
-                    {insight.summary}
-                  </p>
-                  <div className="bg-white p-4 rounded border-l-4 border-red-500 shadow-sm mb-4">
-                    <p className="text-xs font-bold text-red-500 uppercase tracking-wider mb-1">秘闻</p>
+              <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                {/* Summary */}
+                <p className="text-stone-700 mb-6 font-serif leading-relaxed text-justify">
+                  {card.preGeneratedSummary || "历史的迷雾遮蔽了更多细节..."}
+                </p>
+                
+                {/* Secret Fact */}
+                {card.preGeneratedSecret && (
+                  <div className="bg-white p-4 rounded-lg border-l-4 border-red-500 shadow-sm mb-4">
+                    <p className="text-xs font-bold text-red-500 uppercase tracking-wider mb-1 flex items-center gap-1">
+                       历史秘闻
+                    </p>
                     <p className="text-stone-600 italic text-sm">
-                      "{insight.secretFact}"
+                      "{card.preGeneratedSecret}"
                     </p>
                   </div>
-                  
-                  {insight.sources && insight.sources.length > 0 && (
-                    <div className="pt-3 border-t border-stone-200">
-                      <p className="text-xs text-stone-400 font-bold uppercase mb-2">参考资料</p>
-                      <ul className="space-y-1">
-                        {insight.sources.slice(0, 3).map((source, idx) => (
-                          <li key={idx}>
-                            <a 
-                              href={source.url} 
-                              target="_blank" 
-                              rel="noopener noreferrer"
-                              className="flex items-center gap-1 text-xs text-stone-500 hover:text-red-600 hover:underline truncate transition-colors"
-                            >
-                              <ExternalLink size={10} />
-                              {source.title}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </motion.div>
-              )}
+                )}
+
+                {/* Static Source Link */}
+                <div className="pt-3 border-t border-stone-200">
+                  <p className="text-xs text-stone-400 font-bold uppercase mb-2">参考资料</p>
+                  <a 
+                    href={`https://baike.baidu.com/item/${encodeURIComponent(card.title)}`}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-xs text-stone-500 hover:text-red-600 hover:underline truncate transition-colors w-fit"
+                  >
+                    <ExternalLink size={10} />
+                    百度百科：{card.title}
+                  </a>
+                </div>
+              </motion.div>
             </div>
           </div>
         </motion.div>

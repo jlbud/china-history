@@ -96,7 +96,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '刻在牛肩胛骨或龟甲上的文字，主要用于占卜，是中国已知最早的成熟文字系统。',
     imageSeed: 89,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Oracle_Shell03.jpg/640px-Oracle_Shell03.jpg',
-    tags: ['文字', '仪式', '考古']
+    tags: ['文字', '仪式', '考古'],
+    preGeneratedSummary: '甲骨文是商朝晚期王室用于占卜记事而在龟甲或兽骨上契刻的文字，是中国已知最早的成体系的文字形式。它不仅记录了商代的政治、军事、文化和社会习俗，更证实了商朝的存在，将中国信史向前推进了约一千年。',
+    preGeneratedSecret: '1899年，清代金石学家王懿荣因病抓药，在购买的中药“龙骨”上意外发现了刻画符号，甲骨文这才得以重见天日，因此他被称为“甲骨文之父”。'
   },
   {
     id: 's2',
@@ -108,7 +110,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '中国现存最重的青铜器，造型宏伟，纹饰精美，代表了商代青铜铸造技术的最高水平。',
     imageSeed: 12,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Houmuwu_Ding_2018.jpg/640px-Houmuwu_Ding_2018.jpg',
-    tags: ['青铜器', '礼器', '艺术']
+    tags: ['青铜器', '礼器', '艺术'],
+    preGeneratedSummary: '后母戊鼎（原称司母戊鼎）是商王祖庚或祖甲为祭祀其母戊而铸造的青铜礼器，重达832.84公斤，是世界迄今出土最大、最重的青铜礼器。它形制巨大，气势雄伟，纹饰精美，体现了商代高度发达的铸铜工艺。',
+    preGeneratedSecret: '这件国宝在抗日战争时期曾被重新埋入地下以防被日军掠夺，直到抗战胜利后才重新出土。关于其名称是“司母戊”还是“后母戊”，学界曾有长期争论，目前主流观点倾向于“后”字，意为伟大的母亲。'
   },
   {
     id: 's3',
@@ -120,7 +124,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '商王武丁的王后，也是中国历史上第一位有据可查的女性军事统帅，多次率军征战。',
     imageSeed: 45,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Statue_of_Fu_Hao_at_Yinxu.jpg/640px-Statue_of_Fu_Hao_at_Yinxu.jpg',
-    tags: ['军事', '女性', '皇室']
+    tags: ['军事', '女性', '皇室'],
+    preGeneratedSummary: '妇好是商王武丁的一位杰出妻子，她不仅主持祭祀，更是一位骁勇善战的军事统帅。甲骨文中记载了她曾统领一万三千人的大军征讨羌人，这是商代记载中规模最大的一次战役，她为商朝版图的扩大立下了赫赫战功。',
+    preGeneratedSecret: '妇好墓是殷墟唯一保存完整的商代王室墓葬，出土了1928件精美随葬品，其中包括4件象征军权的大铜钺，这在当时是极罕见的，充分证明了她作为军事统帅的崇高地位。'
   },
 
   // ZHOU
@@ -134,7 +140,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '中国古代伟大的思想家、教育家，儒家学派创始人，其思想对中国及东亚文化产生了深远影响。',
     imageSeed: 210,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Confucius_Tang_Dynasty.jpg/640px-Confucius_Tang_Dynasty.jpg',
-    tags: ['哲学', '教育', '儒家']
+    tags: ['哲学', '教育', '儒家'],
+    preGeneratedSummary: '孔子名丘，字仲尼，是春秋时期鲁国人，儒家学派的创始人。他主张“仁”和“礼”，提倡“有教无类”的平民教育，周游列国十四年推行政治主张。虽然生前不得志，但其思想经过后世发展，成为中国两千多年封建社会的正统思想。',
+    preGeneratedSecret: '据《史记》记载，孔子身高“九尺有六寸”，按汉尺计算约为2.2米左右，在当时被称为“长人”，身材极其魁梧，并非文弱书生的形象。'
   },
   {
     id: 'z2',
@@ -146,7 +154,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '世界上最早的军事著作，由孙武所著，其战略思想至今仍被广泛应用于军事和商业领域。',
     imageSeed: 233,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Enoki_Sun_Tzu.jpg/640px-Enoki_Sun_Tzu.jpg',
-    tags: ['军事', '哲学', '文学']
+    tags: ['军事', '哲学', '文学'],
+    preGeneratedSummary: '《孙子兵法》是中国现存最早的兵书，也是世界上最早的军事著作，共十三篇。书中提出了“知彼知己，百战不殆”、“攻其无备，出其不意”等著名军事思想，不仅在军事领域奉为经典，现今也被广泛应用于商业管理和竞争策略中。',
+    preGeneratedSecret: '虽然孙武被尊为“兵圣”，但历史上关于他的记载非常有限，甚至有学者曾怀疑《孙子兵法》并非一人所著，可能是战国时期兵家思想的汇编，直到银雀山汉墓出土竹简才进一步证实了其早期流传版本。'
   },
   {
     id: 'z3',
@@ -158,7 +168,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '战国早期的大型礼乐重器，音域宽广，音色优美，改写了世界音乐史。',
     imageSeed: 267,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bianzhong_of_Marquis_Yi_of_Zeng_03.jpg/800px-Bianzhong_of_Marquis_Yi_of_Zeng_03.jpg',
-    tags: ['音乐', '青铜器', '艺术']
+    tags: ['音乐', '青铜器', '艺术'],
+    preGeneratedSummary: '曾侯乙编钟是战国早期曾国国君的一套大型礼乐重器，由65件青铜钟组成。它音域跨越五个半八度，且具有“一钟双音”的物理声学特征（敲击钟的正鼓部和侧鼓部能发出两个不同的乐音），证明了中国先秦时期音乐声学已达到极高水平。',
+    preGeneratedSecret: '在1978年出土之前，西方音乐界普遍认为中国古代没有十二平均律的概念，曾侯乙编钟的出土彻底改写了世界音乐史，证明中国早在2400多年前就实践了完整的七声音阶。'
   },
   {
     id: 'z4',
@@ -170,7 +182,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '春秋战国时期知识分子中不同学派的涌现及各流派争芳斗艳的局面，是中国思想文化的黄金时代。',
     imageSeed: 299,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Confucius_disciples.jpg/640px-Confucius_disciples.jpg',
-    tags: ['哲学', '思想', '历史']
+    tags: ['哲学', '思想', '历史'],
+    preGeneratedSummary: '百家争鸣是指春秋战国时期，知识分子中出现不同学派（如儒、道、墨、法、阴阳等）著书立说、互相辩难的局面。这是中国历史上第一次思想解放运动，奠定了中国传统文化的基础，其中的许多思想至今仍影响着中国人的思维方式。',
+    preGeneratedSecret: '虽然号称“百家”，但实际上最著名的只有“九流十家”。其中墨家在当时曾与儒家并称为“显学”，拥有严密的组织和武装力量，但在秦汉之后由于统治者政策导向，墨家学派迅速衰落并几近消失。'
   },
 
   // QIN
@@ -184,7 +198,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '秦始皇陵的陪葬坑中出土的陶制兵马模型，数量庞大，形态各异，展示了秦军的威武之师。',
     imageSeed: 315,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Terracotta_Army_Pit_1_2015.jpg/800px-Terracotta_Army_Pit_1_2015.jpg',
-    tags: ['艺术', '军事', '考古']
+    tags: ['艺术', '军事', '考古'],
+    preGeneratedSummary: '秦始皇兵马俑被誉为“世界第八大奇迹”，是秦始皇陵的陪葬坑。坑内排列着数以千计的陶俑、陶马和战车，每个陶俑的面部神态各不相同（千人千面），生动再现了秦军统一六国时的威武阵势。',
+    preGeneratedSecret: '兵马俑刚出土时其实是色彩斑斓的，身穿粉红、绿、蓝等颜色的战袍。但由于陶俑长期埋藏在地下，出土后接触空气，颜料层在极短的时间内（甚至只有几分钟）就会脱水起翘脱落，变成了我们现在看到的土灰色。'
   },
   {
     id: 'q2',
@@ -196,7 +212,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '中国历史上第一位皇帝，统一了六国、文字、度量衡，建立了中央集权制度。',
     imageSeed: 342,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Qin_Shi_Huang_di.jpg/640px-Qin_Shi_Huang_di.jpg',
-    tags: ['皇帝', '政治', '改革']
+    tags: ['皇帝', '政治', '改革'],
+    preGeneratedSummary: '秦始皇嬴政是中国历史上第一位使用“皇帝”称号的君主。他结束了战国诸侯混战的局面，建立了中国历史上第一个大一统的中央集权王朝。他推行“书同文、车同轨”，统一了度量衡，对中华民族的统一和融合产生了不可磨灭的影响。',
+    preGeneratedSecret: '秦始皇晚年极度迷恋长生不老之术，曾派遣徐福率领三千童男童女出海寻找蓬莱仙岛，这一事件在日本传说中被认为是日本文明的起源之一。'
   },
   {
     id: 'q3',
@@ -208,7 +226,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '秦始皇连接并修缮战国长城，形成了西起临洮、东至辽东的万里长城，用以抵御北方游牧民族。',
     imageSeed: 388,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/800px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg',
-    tags: ['建筑', '军事', '奇迹']
+    tags: ['建筑', '军事', '奇迹'],
+    preGeneratedSummary: '万里长城是中国古代的军事防御工程。秦始皇统一六国后，为了防御北方匈奴的侵扰，将原燕、赵、秦三国北方的城墙连接并扩建。长城不仅是一道墙，更是由烽火台、关隘、城墙等组成的完整军事防御体系。',
+    preGeneratedSecret: '在古代修筑长城时，为了增加墙体的强度和耐久性，工匠们在灰浆中加入了糯米汤。这种“糯米砂浆”的粘合强度远超纯石灰砂浆，是长城历经千年风雨仍能屹立不倒的重要秘密武器。'
   },
 
   // HAN
@@ -222,7 +242,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '连接中国与西方的古代陆上商业贸易路线，是东西方经济、文化交流的重要桥梁。',
     imageSeed: 422,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Silk_route.jpg/800px-Silk_route.jpg',
-    tags: ['贸易', '探索', '外交']
+    tags: ['贸易', '探索', '外交'],
+    preGeneratedSummary: '丝绸之路是西汉时期张骞出使西域后开辟的，以长安（今西安）为起点，经甘肃、新疆，到中亚、西亚，并联结地中海各国的陆上通道。它不仅促进了丝绸、瓷器等商品的贸易，更促进了东西方在宗教、艺术、科技等方面的深度交流。',
+    preGeneratedSecret: '古罗马人非常喜爱中国的丝绸，但由于不知道丝绸的来源，曾误以为丝绸是从树上像羊毛一样长出来的（在此之前他们称其为“羊毛树”）。'
   },
   {
     id: 'h2',
@@ -234,7 +256,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '西汉史学家，撰写了中国第一部纪传体通史《史记》，被鲁迅誉为“史家之绝唱，无韵之离骚”。',
     imageSeed: 456,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sima_Qian.jpg/640px-Sima_Qian.jpg',
-    tags: ['历史', '文学', '史记']
+    tags: ['历史', '文学', '史记'],
+    preGeneratedSummary: '司马迁是西汉伟大的史学家和文学家，他忍辱负重，在遭受宫刑后发愤著书，完成了中国第一部纪传体通史《史记》。该书记载了上至黄帝、下至汉武帝约3000年的历史，创立了纪传体的史书体例，对后世史学影响极其深远。',
+    preGeneratedSecret: '司马迁之所以遭受宫刑，是因为他为兵败投降匈奴的李陵辩护，触怒了汉武帝。他选择接受比死更屈辱的宫刑而不是自杀，完全是为了完成父亲的遗愿和自己的史学理想，即“究天人之际，通古今之变，成一家之言”。'
   },
   {
     id: 'h3',
@@ -246,7 +270,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '东汉宦官蔡伦改进了造纸术，使纸张成为普遍的书写材料，对世界文明传播作出了巨大贡献。',
     imageSeed: 489,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cailun.jpg/640px-Cailun.jpg',
-    tags: ['科技', '发明', '文化']
+    tags: ['科技', '发明', '文化'],
+    preGeneratedSummary: '东汉时期的蔡伦总结了前人的经验，用树皮、麻头、破布、旧渔网等廉价原料改进了造纸工艺，制成了轻便、便宜且适宜书写的“蔡侯纸”。这一发明彻底改变了书写材料，使得知识和文化得以更广泛、更低成本地传播。',
+    preGeneratedSecret: '蔡伦不仅是伟大的发明家，也是一位深谙权术的宦官。他曾卷入宫廷斗争，依附窦皇后，但在权力更迭后最终因畏罪服毒自杀。'
   },
   {
     id: 'h4',
@@ -258,7 +284,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '汉代皇帝和高级贵族死后穿着的殓服，由数千片玉片用金丝编缀而成，极尽奢华。',
     imageSeed: 499,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Han_Jade_Burial_Suit_1.jpg/800px-Han_Jade_Burial_Suit_1.jpg',
-    tags: ['文物', '皇室', '工艺']
+    tags: ['文物', '皇室', '工艺'],
+    preGeneratedSummary: '金缕玉衣是汉代最高规格的丧葬殓服，古人认为玉能防腐，使尸体不朽。最著名的中山靖王刘胜的玉衣共用玉片2498片，金丝约1100克，制作工艺极其复杂，代表了汉代玉器工艺的巅峰。',
+    preGeneratedSecret: '并非所有玉衣都用金丝编织。汉代有严格的等级制度，只有皇帝和特定的王侯才能用金缕，其他贵族根据身份只能使用银缕、铜缕甚至丝缕。曹魏时期，魏文帝曹丕为了防止盗墓，下令禁止使用玉衣下葬，这一奢华习俗才逐渐消失。'
   },
 
   // TANG
@@ -272,7 +300,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '唐代伟大的浪漫主义诗人，被后人誉为“诗仙”，其诗作豪迈奔放，想象丰富。',
     imageSeed: 530,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Li_Bai_depiction.jpg/640px-Li_Bai_depiction.jpg',
-    tags: ['诗歌', '文学', '浪漫']
+    tags: ['诗歌', '文学', '浪漫'],
+    preGeneratedSummary: '李白是唐代最杰出的浪漫主义诗人，号青莲居士，被后人誉为“诗仙”。他的诗歌风格豪迈奔放、清新飘逸，具有强烈的个人色彩，代表作如《望庐山瀑布》、《将进酒》、《静夜思》等家喻户晓，是中国文学史上的一座高峰。',
+    preGeneratedSecret: '关于李白的死有一个极具浪漫色彩的传说：说他是在江上饮酒时，醉眼朦胧中看到水中的月亮非常美丽，便跳入水中想要捉月，结果溺水而亡。虽然正史记载他是病逝，但人们更愿意相信这个符合他一生的结局。'
   },
   {
     id: 't2',
@@ -284,7 +314,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '中国历史上唯一的正统女皇帝，在位期间打击门阀，发展科举，奖励农桑，有“贞观遗风”。',
     imageSeed: 567,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Empress_Wu_Zetian.jpg/640px-Empress_Wu_Zetian.jpg',
-    tags: ['皇帝', '女性', '政治']
+    tags: ['皇帝', '女性', '政治'],
+    preGeneratedSummary: '武则天是中国历史上唯一的正统女皇帝，改国号为“周”。她在位期间，打击门阀世族，大力发展科举制度选拔平民人才，奖励农桑，改革吏治，为后来的“开元盛世”奠定了基础，被历史学家评价为“政启开元，治宏贞观”。',
+    preGeneratedSecret: '武则天为了巩固统治和神化自己，创造了一套全新的文字，称为“则天文字”。其中最著名的是她为自己取的名字“曌”（zhào），意为日月当空，普照大地。这些字在她死后大部分被废除，但“曌”字流传了下来。'
   },
   {
     id: 't3',
@@ -296,7 +328,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '盛行于唐代的低温铅釉陶器，以黄、绿、白三色为主，造型生动，色彩艳丽。',
     imageSeed: 588,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tang_Dynasty_Ceramic_Camel.jpg/640px-Tang_Dynasty_Ceramic_Camel.jpg',
-    tags: ['艺术', '陶瓷', '工艺']
+    tags: ['艺术', '陶瓷', '工艺'],
+    preGeneratedSummary: '唐三彩是一种盛行于唐代的低温彩色釉陶器，以黄、绿、白三种颜色为主色调，故称“三彩”。它造型丰富，包括人物、动物（特别是马和骆驼）、器皿等，色彩绚丽斑斓，生动反映了唐代繁荣的社会生活和中西文化交流的盛况。',
+    preGeneratedSecret: '虽然唐三彩现在被视为艺术珍品，但在唐代，它主要并不是日常生活中使用的器皿，而是作为随葬品（冥器）使用的。这解释了为什么出土的唐三彩数量巨大且保存相对完好。'
   },
   {
     id: 't4',
@@ -308,7 +342,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '唐代高僧玄奘前往天竺（印度）取经，带回大量佛经并翻译，促进了佛教在中国的传播。',
     imageSeed: 595,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Xuanzang_Da_Tang_Xi_Yu_Ji.jpg/640px-Xuanzang_Da_Tang_Xi_Yu_Ji.jpg',
-    tags: ['宗教', '探索', '翻译']
+    tags: ['宗教', '探索', '翻译'],
+    preGeneratedSummary: '玄奘是唐代著名高僧，为了探究佛法真义，他只身一人西行五万里，历经艰险到达天竺（今印度）那烂陀寺求学。十七年后，他带回大量佛经，并主持翻译了《大般若经》等1335卷经文，同时也留下了详细记载西域风土人情的《大唐西域记》。',
+    preGeneratedSecret: '玄奘西行其实是“非法出境”。当时唐朝初建，边境封锁，不允许私人出国。玄奘是混在灾民中溜出长安，一路上多次险些被边关守将拦截，其真实经历比《西游记》中的故事更为惊险和坚毅。'
   },
 
   // SONG
@@ -322,7 +358,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '北宋毕昇发明的泥活字印刷术，标志着活字印刷技术的诞生，极大地促进了文化的传播。',
     imageSeed: 601,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Wood_movable_type_printing.jpg/800px-Wood_movable_type_printing.jpg',
-    tags: ['科技', '发明', '传播']
+    tags: ['科技', '发明', '传播'],
+    preGeneratedSummary: '北宋平民毕昇发明了胶泥活字印刷术，这是印刷史上的一次伟大革命。他将每个字刻在胶泥上烧制成单字，排版时排列在铁板上，使用后可拆卸重复使用。相比雕版印刷，它大大提高了印刷效率，降低了成本。',
+    preGeneratedSecret: '毕昇发明的泥活字在当时容易破碎，并未得到大规模推广。直到后来元代的王祯发明了木活字和转轮排字盘，以及后来的金属活字，活字印刷术才真正展现出其巨大的威力，改变了世界文明的进程。'
   },
   {
     id: 'so2',
@@ -334,7 +372,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '北宋文学家、书画家，唐宋八大家之一，豪放派词人代表，在诗、词、散文、书、画等方面均有极高成就。',
     imageSeed: 645,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Su_Shi.jpg/640px-Su_Shi.jpg',
-    tags: ['文学', '艺术', '美食']
+    tags: ['文学', '艺术', '美食'],
+    preGeneratedSummary: '苏轼，号东坡居士，是北宋中期的文坛领袖。他的词开豪放一派，诗题材广阔，散文著述宏富，书法位列“苏黄米蔡”四大家之首。他一生仕途坎坷，多次被贬，但性格豁达乐观，在文学艺术和生活情趣上都达到了极高的境界。',
+    preGeneratedSecret: '苏轼不仅是文学家，还是个资深“吃货”和美食发明家。他在被贬黄州时，因当地猪肉极便宜但富人不吃、穷人不会煮，便发明了著名的“东坡肉”。此外，东坡肘子、东坡鱼等也与他有关。'
   },
   {
     id: 'so3',
@@ -346,7 +386,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '北宋画家张择端所作，生动记录了北宋都城东京（今开封）的城市面貌和当时社会各阶层人民的生活状况。',
     imageSeed: 678,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Along_the_River_During_the_Qingming_Festival_%28Qing_Court_Version%29.jpg/1280px-Along_the_River_During_the_Qingming_Festival_%28Qing_Court_Version%29.jpg',
-    tags: ['绘画', '艺术', '风俗']
+    tags: ['绘画', '艺术', '风俗'],
+    preGeneratedSummary: '《清明上河图》是中国十大传世名画之一，宽24.8厘米，长528.7厘米。画卷以全景式构图，描绘了北宋汴京清明时节的繁华景象。画中人物五百余个，牲畜五六十匹，车船房屋无数，是研究宋代城市生活和商业经济的百科全书。',
+    preGeneratedSecret: '这幅画看似描绘繁华盛世，实则暗藏危机。画中城防涣散，没有一个守城的士兵；消防设施闲置；商船私自占用河道导致交通混乱。画家张择端可能在用这种方式向宋徽宗曲谏，预示着繁华背后的社会隐患。'
   },
   {
     id: 'so4',
@@ -358,7 +400,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '宋代开始将磁针用于航海，大大提高了航海技术，为后来的地理大发现提供了技术支持。',
     imageSeed: 699,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Model_Si_Nan_of_Han_Dynasty.jpg/640px-Model_Si_Nan_of_Han_Dynasty.jpg',
-    tags: ['科技', '航海', '发明']
+    tags: ['科技', '航海', '发明'],
+    preGeneratedSummary: '中国早在战国时期就发明了指示方向的“司南”。到了宋代，人们利用人工磁化技术制造出了指南针，并开始将其应用于航海。沈括在《梦溪笔谈》中详细记载了指南针的四种装置方法，这是世界上关于指南针应用于航海的最早记载。',
+    preGeneratedSecret: '宋代科学家沈括在使用指南针时，是世界上第一个发现“磁偏角”现象的人，即指南针指向的南方与地理正南方向有微小的偏差。这一发现比哥伦布横渡大西洋时发现磁偏角早了400多年。'
   },
 
   // MING
@@ -372,7 +416,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '明清两代的皇家宫殿，是世界上现存规模最大、保存最为完整的木质结构古建筑之一。',
     imageSeed: 745,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Forbidden_City_Beijing_Shenwu_Gate_20191013.jpg/800px-Forbidden_City_Beijing_Shenwu_Gate_20191013.jpg',
-    tags: ['建筑', '皇室', '世界遗产']
+    tags: ['建筑', '皇室', '世界遗产'],
+    preGeneratedSummary: '紫禁城（今故宫）由明成祖朱棣下令建造，历时14年完工。它位于北京中轴线的中心，占地72万平方米，是明清两代24位皇帝的皇宫。紫禁城严格按照封建礼制布局，红墙黄瓦，气势恢宏，代表了中国古代宫殿建筑的最高成就。',
+    preGeneratedSecret: '传说紫禁城有9999间半房子，只比天帝的一万间少半间以示敬畏。但实际上，据专家现场清点，故宫现存古建筑约有8700多间。那“半间”位于文渊阁楼下西头，看起来很小，其实是为了布局美观。'
   },
   {
     id: 'm2',
@@ -384,7 +430,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '明代杰出的航海家、外交家郑和七次率领庞大船队远航西洋，最远到达非洲东海岸。',
     imageSeed: 882,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Zheng_He.jpg/640px-Zheng_He.jpg',
-    tags: ['探索', '航海', '外交']
+    tags: ['探索', '航海', '外交'],
+    preGeneratedSummary: '明成祖朱棣派遣郑和率领当时世界上最庞大的船队，七次出使西洋（今东南亚、印度洋沿岸地区）。郑和船队规模之大、技术之先进、航程之远，在当时世界航海史上是空前的。这不仅宣扬了国威，也促进了中国与亚非国家的经济文化交流。',
+    preGeneratedSecret: '郑和的旗舰“宝船”据记载长44丈（约150米），宽18丈（约60米），是当时海上的巨无霸。然而，由于明朝后期的海禁政策，相关的航海档案被销毁，导致造船技术失传，中国错失了在大航海时代继续领先的机会。'
   },
   {
     id: 'm3',
@@ -396,7 +444,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '李时珍历时27年编写的医药学巨著，集中国16世纪以前药学之大成，被誉为“东方医学巨典”。',
     imageSeed: 777,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Bencao_Gangmu_page.jpg/640px-Bencao_Gangmu_page.jpg',
-    tags: ['医学', '科学', '书籍']
+    tags: ['医学', '科学', '书籍'],
+    preGeneratedSummary: '《本草纲目》是明代医学家李时珍耗尽毕生心血完成的巨著。全书共52卷，收录药物1892种，附方11000多则，插图1100多幅。它不仅纠正了前人医药书籍中的错误，还首创了按自然属性分类的方法，比西方植物分类学早了200年。',
+    preGeneratedSecret: '虽然《本草纲目》是医学经典，但也收录了一些现在看来很荒谬的“偏方”，比如“上吊绳”治癫狂、“裹脚布”治嗓子痛等。这反映了当时认知的局限性，但也侧面说明了李时珍“搜罗百氏”的广泛收集工作。'
   },
   {
     id: 'm4',
@@ -408,7 +458,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '明代著名的思想家、军事家，心学集大成者，提出“致良知”和“知行合一”的学说。',
     imageSeed: 799,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Wang_Yangming_portrait.jpg/640px-Wang_Yangming_portrait.jpg',
-    tags: ['哲学', '心学', '教育']
+    tags: ['哲学', '心学', '教育'],
+    preGeneratedSummary: '王守仁（号阳明）是明代最具影响力的思想家，也是杰出的军事家。他建立了“心学”体系，提出“心即理”、“知行合一”、“致良知”等核心观点，强调人的主体性和道德自觉。他的思想不仅影响了明清两代，还深刻影响了日本的明治维新。',
+    preGeneratedSecret: '王阳明是历史上少有的“立德、立功、立言”三不朽的人物。作为一介书生，他仅用几十天就平定了宁王朱宸濠蓄谋已久的十万大军叛乱，其军事才能之高，在历史上极为罕见，被誉为“大明军神”。'
   },
 
   // QING
@@ -422,7 +474,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '清朝第六位皇帝，在位期间中国疆域达到最大，不仅文治武功卓著，也极度热爱艺术收藏。',
     imageSeed: 810,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_Qianlong_Emperor_in_Court_Dress.jpg/640px-The_Qianlong_Emperor_in_Court_Dress.jpg',
-    tags: ['皇帝', '政治', '艺术']
+    tags: ['皇帝', '政治', '艺术'],
+    preGeneratedSummary: '乾隆皇帝（清高宗）是中国历史上实际执政时间最长（63年）的皇帝。他在位期间，清朝国力达到顶峰，疆域辽阔，人口增长。他编纂了《四库全书》，平定了边疆叛乱，自诩为“十全老人”。但晚年好大喜功，吏治腐败，闭关锁国，导致清朝由盛转衰。',
+    preGeneratedSecret: '乾隆是著名的“盖章狂魔”和“弹幕狂人”。他酷爱在名家字画上题跋盖章，像王羲之的《快雪时晴帖》就被他盖了几十个章，写满了密密麻麻的读后感，严重破坏了原作的留白美感，让后世文物保护者哭笑不得。'
   },
   {
     id: 'qi2',
@@ -434,7 +488,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '曹雪芹所著，中国古典小说的巅峰之作，通过四大家族的兴衰描写了封建社会的方方面面。',
     imageSeed: 845,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dream_of_the_Red_Chamber_Qing_Dynasty.jpg/640px-Dream_of_the_Red_Chamber_Qing_Dynasty.jpg',
-    tags: ['文学', '小说', '经典']
+    tags: ['文学', '小说', '经典'],
+    preGeneratedSummary: '《红楼梦》是中国古典四大名著之首，以贾、史、王、薛四大家族的兴衰为背景，以贾宝玉和林黛玉的爱情悲剧为主线。它塑造了数百个栩栩如生的人物形象，百科全书式地描绘了清代社会生活，其艺术成就代表了中国古典小说的最高峰。',
+    preGeneratedSecret: '我们现在看到的《红楼梦》其实并非全本。前80回由曹雪芹所著，后40回一般认为是高鹗续写。由于原稿遗失，书中许多人物（如贾宝玉、林黛玉）的最终命运在续书中可能并不完全符合曹雪芹的原意，这成为了文学史上永远的遗憾（红学之谜）。'
   },
   {
     id: 'qi3',
@@ -446,7 +502,9 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '中国影响最大的戏曲剧种，融合了徽剧、汉剧等多种地方戏曲的优点，被誉为中国的“国粹”。',
     imageSeed: 888,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Peking_Opera_Masks.jpg/800px-Peking_Opera_Masks.jpg',
-    tags: ['戏曲', '艺术', '文化']
+    tags: ['戏曲', '艺术', '文化'],
+    preGeneratedSummary: '京剧形成于清代乾隆年间，源于“四大徽班进京”。它融合了徽剧、汉剧、昆曲、秦腔等多种戏曲元素，形成了一套规范化的艺术表现形式（唱、念、做、打）。京剧角色分为生、旦、净、末、丑，是中国传统文化的集大成者，被誉为国粹。',
+    preGeneratedSecret: '在京剧形成的早期以及很长一段时间内，由于封建礼教的束缚，女性被禁止登台演戏。因此，京剧中的女性角色（旦角）都是由男性扮演的（如梅兰芳先生），这反而促成了一种独特的表演艺术风格。'
   },
   {
     id: 'qi4',
@@ -458,6 +516,8 @@ export const INITIAL_CARDS: HistoryCardData[] = [
     shortDescription: '清代大型皇家园林，汇集了江南园林的精华和西方建筑风格，曾被称为“万园之园”。',
     imageSeed: 910,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ruins_of_the_Old_Summer_Palace.jpg/800px-Ruins_of_the_Old_Summer_Palace.jpg',
-    tags: ['建筑', '园林', '历史']
+    tags: ['建筑', '园林', '历史'],
+    preGeneratedSummary: '圆明园是清代著名的皇家园林，由圆明园、长春园和绮春园组成。它继承了中国三千多年的优秀造园传统，又吸取了西方建筑流派（如西洋楼景区），被誉为“万园之园”。1860年，圆明园被英法联军抢劫并焚毁，成为中国近代史上的痛。',
+    preGeneratedSecret: '圆明园中著名的“十二生肖兽首”铜像，原本是海晏堂前喷水池的一部分。这些兽首每到一个时辰（两小时），相应的兽首就会喷水，正午十二时则十二兽首同时喷水，设计非常精巧，实质上是一个大型的水力钟。'
   }
 ];
